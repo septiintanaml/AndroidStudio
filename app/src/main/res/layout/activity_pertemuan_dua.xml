@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PertemuanDua"
+    android:background="@drawable/bg4"
+    android:padding="15dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grad1"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:paddingTop="15dp"
+        android:text="Kosmetik era dulu, dari serangga hingga timah "
+        android:textColor="#9F5933"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="15dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="592dp"
+        android:layout_marginEnd="208dp"
+        android:layout_marginRight="208dp"
+        android:fontFamily="monospace"
+        android:onClick="activity4"
+        android:text="back to homepage"
+        android:textColor="@color/black"
+        android:theme="@style/buttonStyle1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="592dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:fontFamily="monospace"
+        android:onClick="activity5"
+        android:text="open biodata"
+        android:textColor="@color/black"
+        android:theme="@style/buttonStyle1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="monospace"
+        android:gravity="bottom"
+        android:text="@string/by_septi_intan_amalia"
+        android:textColor="#682915"
+        tools:layout_editor_absoluteX="-14dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="371dp"
+        android:layout_height="373dp"
+        android:layout_marginTop="212dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+        android:foregroundGravity="center"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Kosmetik khususnya makeup pertama kali diperkenalkan saat peradaban Sumeria. Pada tahun 2500-1000 SM Bangsa Sumeria menggunakan serangga Cochineal dan buah beri untuk memberikan warna merah pada bibir. Pada saat itu, Ratu Sumeria gemar mencampurkan batu merah yang dihancurkan dengan timah untuk dijadikan pewarna.
+        Sedangkan pada zaman Mesir kuno, pewarna bibir merah keunguan diperoleh dari rumbuh laut. Pada saat itu, masyarakat mewarnai wajah menggunakan tembaga, biji timah, dan perunggu.
+
+        Eyeliner yang digunakan menggunakan kombinasi almond yang dibakar, tembaga yang dioksidasi, timah, abu, dan tanah liat. Beragam jenis minyak digunakan untuk melembabkan dan melindungi kulit dari sinar matahari. Selain itu, minyak juga digunakan sebagai wewangian untuk ritual keagamaan"
+
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.454"
+        android:background="#BFB7D1"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="258dp"
+        android:layout_height="155dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.119"
+        app:srcCompat="@drawable/pic1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

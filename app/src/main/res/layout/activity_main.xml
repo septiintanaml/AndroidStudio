@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg4"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="cursive"
+        android:paddingTop="69dp"
+        android:text="@string/selamat_datang"
+        android:background="@drawable/grad1"
+        android:gravity="center_horizontal"
+        android:textColor="#9F5933"
+        android:textSize="80sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
+        android:fontFamily="monospace"
+        android:text="@string/biodata"
+        android:textColor="@color/black"
+        android:theme="@style/buttonStyle1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="activity3"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="384dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
+        android:fontFamily="monospace"
+        android:text="@string/artikel"
+        android:textColor="@color/black"
+        android:theme="@style/buttonStyle1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="activity2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/by_septi_intan_amalia"
+        android:gravity="bottom"
+        android:textColor="#682915"
+        android:fontFamily="monospace"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

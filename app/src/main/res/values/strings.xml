@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PertemuanDua</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="by_septi_intan_amalia">by : Septi Intan Amalia</string>
+    <string name="biodata">Biodata</string>
+    <string name="artikel">Artikel</string>
+    <string name="sistem_informasi_2019">SISTEM INFORMASI 2019</string>
+    <string name="back_to_artikel"><![CDATA[<<Back To Artikel]]></string>
+    <string name="back_to_homepage"><![CDATA[back to homepage>>]]></string>
+    <string name="biodata_mahasiwa">Biodata Mahasiwa</string>
+</resources>
